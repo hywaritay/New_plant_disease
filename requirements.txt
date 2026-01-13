@@ -1,4 +1,4 @@
-tensorflow-cpu==2.16.1
+tensorflow
 numpy
 pillow
 opencv-python-headless
@@ -10,5 +10,6 @@ flask-restful
 gunicorn
 flask_restx
 flask-swagger-ui
+
 
 
