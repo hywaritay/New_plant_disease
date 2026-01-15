@@ -1,4 +1,4 @@
-tensorflow
+tensorflow-cpu
 numpy
 pillow
 opencv-python-headless
@@ -10,6 +10,3 @@ flask-restful
 gunicorn
 flask_restx
 flask-swagger-ui
-
-
-
