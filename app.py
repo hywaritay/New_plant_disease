@@ -2,7 +2,11 @@ import os
 import base64
 import io
 import numpy as np
+# Configure TensorFlow to use CPU only
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 import tensorflow as tf
+# Ensure TensorFlow uses CPU
+tf.config.set_visible_devices([], 'GPU')
 import cv2
 from flask import Flask, jsonify
 from flask_restx import Api, Resource, fields
