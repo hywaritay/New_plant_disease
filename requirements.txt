@@ -2,11 +2,7 @@ tensorflow-cpu
 numpy
 pillow
 opencv-python-headless
-opencv-python
-scikit-image
 flask
 flask-cors
-flask-restful
+flask-restx
 gunicorn
-flask_restx
-flask-swagger-ui
